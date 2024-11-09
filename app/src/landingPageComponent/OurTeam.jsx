@@ -11,7 +11,7 @@ export default function OurTeam() {
   ];
 
   return (
-    <div>
+    <div className="">
       
       <div className="text-center mt-24">
         <h1 className="text-[42px] font-bold">Our Team</h1>
@@ -19,14 +19,13 @@ export default function OurTeam() {
           Meet the dedicated individuals behind our innovative food inventory solution
         </p>
       </div>
-
-      
       <div className="relative w-[324px] h-[317px] mx-auto mt-32 overflow-hidden rounded-xl">
         <Image
           src={images[0]}
           alt="A beautiful example image"
           layout="fill"
           objectFit="cover"
+          className="h-48 w-48 md:h-48"
         />
       </div>
 

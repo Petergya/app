@@ -6,6 +6,9 @@ module.exports = {
     "./src/landingPageComponent/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/headerFooter/**/*.{js,ts,jsx,tsx,mdx}",
+
+    
   ],
   theme: {
     extend: {
