@@ -1,3 +1,4 @@
+import Footer from "@/headerFooter/Footer";
 import Hero from "@/landingPageComponent/Hero";
 import OurJourney from "@/landingPageComponent/OurJourney"
 import OurTeam from "@/landingPageComponent/OurTeam";
@@ -9,6 +10,7 @@ export default function Home() {
    <Hero />
    <OurJourney />
    <OurTeam />
+   <Footer/>
    </>
   );
 }
