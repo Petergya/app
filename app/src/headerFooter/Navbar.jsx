@@ -2,7 +2,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-import log from "../../public/images/Rectangle.png";
+// import log from "../../public/images/Rectangle.png";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -16,8 +16,8 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between px-8">
         
         <div className="text-3xl font-bold py-2">
-          <Link href="/">
-          <img src={log} alt="" />
+          <Link href="/">LOGO
+          {/* <img src={log} alt="" /> */}
           </Link>
         </div>
 
