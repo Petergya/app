@@ -12,10 +12,7 @@ export default function OurJourney() {
     Founded by a group of food enthusiasts, our company has evolved into a leading provider of innovative
     solutions for managing food inventory effectively.
   </p>
-</div>
-
-
-    
+</div>    
 
 <div className="relative w-[90%] h-[400px] mx-auto mt-32 overflow-hidden rounded-xl">
   <Image
