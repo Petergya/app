@@ -72,7 +72,7 @@ export default function ContactForm() {
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="px-6 py-2 bg-red-500 text-white font-semibold rounded-full hover:bg-red-600"
+                className="px-6 py-2 bg-[#E82429] text-white font-semibold rounded-full "
               >
                 Send
               </button>
