@@ -1,8 +1,6 @@
-
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,26 +12,30 @@ export default function Navbar() {
   return (
     <nav className="bg-white text-gray-800 py-4 shadow-md fixed w-full z-10" style={{ top: "0px" }}>
       <div className="container mx-auto flex items-center justify-between px-8">
+      
+        <div className="flex items-center space-x-10">
         
-        <div className="text-3xl font-bold py-2">
-          <Link href="/">
-          <img src="/images/Rectangle 2.png" alt="logo" />
-          </Link>
+          <div className="text-3xl font-bold py-2">
+            <Link href="/">
+              <img src="/images/Rectangle 2.png" alt="logo" />
+            </Link>
+          </div>
+
+        
+          <div className="hidden md:flex space-x-10">
+            <Link href="/welcome" className="text-lg hover:text-gray-600">Welcome to</Link>
+            <Link href="/add-items" className="text-lg hover:text-gray-600">Add Items</Link>
+            <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
+            <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
+          </div>
         </div>
 
-   
-        <div className="hidden md:flex space-x-10 mr-[60%]   ">
-          <Link href="/welcome" className="text-lg hover:text-gray-600 ">Welcome to</Link>
-          <Link href="/add-items" className="text-lg hover:text-gray-600">Add Items</Link>
-          <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
-          <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
-        </div>
+        
+        <button className="hidden md:block px-6 py-2 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
+          Log in
+        </button>
 
-        <button className="px-6 py-3 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
-      Start Now
-    </button>
-
-
+        
         <div className="md:hidden ml-auto">
           <button onClick={toggleMobileMenu} className="text-gray-800 focus:outline-none">
             <svg
@@ -53,6 +55,8 @@ export default function Navbar() {
           </button>
         </div>
       </div>
+
+    
       {isMobileMenuOpen && (
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col items-center space-y-4 py-4">
@@ -60,9 +64,13 @@ export default function Navbar() {
             <Link href="/add-items" className="text-lg hover:text-gray-600">Add Items</Link>
             <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
             <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
+            <button className="px-4 py-2 bg-[#E82429] text-white text-[20px] font-semibold rounded-full">
+              Log in
+            </button>
           </div>
         </div>
       )}
     </nav>
   );
 }
+

@@ -9,8 +9,8 @@ export default function Footer() {
           <p className="pt-10 text-white text-[16px] md:text-[24px]">
             We&apos;re passionate about revolutionizing food inventory management.
           </p>
-          <div className="flex items-center justify-center py-10 ">
-  <div className="space-x-20">
+          <div className="flex items-center justify-center ">
+  <div className="space-x-6   ">
     <button className="px-14 py-3 bg-black text-white text-[16px] font-semibold rounded-full">
       Start Now
     </button>
