@@ -7,7 +7,8 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/layouts/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/headerFooter/**/*.{js,ts,jsx,tsx,mdx}",
-
+    "./src/aboutComponents/**/*.{js,ts,jsx,tsx,mdx}",
+    
     
   ],
   theme: {

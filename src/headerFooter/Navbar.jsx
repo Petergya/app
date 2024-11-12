@@ -24,7 +24,7 @@ export default function Navbar() {
         
           <div className="hidden md:flex space-x-10">
             <Link href="/welcome" className="text-lg hover:text-gray-600">Welcome to</Link>
-            <Link href="/add-items" className="text-lg hover:text-gray-600">Add Items</Link>
+            <Link href="addProduct" className="text-lg hover:text-gray-600">Add Items</Link>
             <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
             <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
           </div>
