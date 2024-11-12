@@ -2,7 +2,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link';
-// import log from "../../public/images/Rectangle 2.png";
+
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -28,6 +28,12 @@ export default function Navbar() {
           <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
           <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
         </div>
+
+        <button className="px-6 py-3 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
+      Start Now
+    </button>
+
+
         <div className="md:hidden ml-auto">
           <button onClick={toggleMobileMenu} className="text-gray-800 focus:outline-none">
             <svg
