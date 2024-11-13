@@ -6,10 +6,10 @@ export default function Footer() {
           <h1 className="text-[32px] md:text-[52px] font-bold text-white">
             Meet the team behind this magic
           </h1>
-          <p className="pt-10 text-white text-[16px] md:text-[24px]">
+          <p className="mt-5 text-white text-[16px] md:text-[24px]">
             We&apos;re passionate about revolutionizing food inventory management.
           </p>
-          <div className="flex items-center justify-center ">
+          <div className="flex items-center justify-center mt-10 ">
   <div className="space-x-6   ">
     <button className="px-14 py-3 bg-black text-white text-[16px] font-semibold rounded-full">
       Start Now

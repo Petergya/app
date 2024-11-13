@@ -30,10 +30,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        
-        {/* <button className="hidden md:block px-6 py-2 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
-          Log in
-        </button> */}
+      
     
 
 <Link href="/signup">
