@@ -6,10 +6,10 @@ import Image from "next/image";
 
 export default function Abouthero() {
   return (
-    <div className=" px-4 sm:px-6 lg:px-8 bg-white">
+    <div className=" px-4 sm:px-6 lg:px-8 bg-white mt-0">
       
-      <div className="text-center mt-32">
-        <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-bold text-black">
+      <div className="text-center ">
+        <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-bold text-black mt-32">
           How does FoodInventoryPro work?
         </h1>
       </div>
