@@ -22,7 +22,9 @@ export default function AddProduct() {
   };
 
   return (
-    <div className=" flex flex-col items-center bg-white px-4 py-6 md:py-12 mt-24">
+    <div className=" flex flex-col items-center bg-white px-4 py-6 md:py-12 ">
+
+      <div className='mt-32'>
       <div className="w-full max-w-6xl mb-8">
         <Link href="/" passHref>
           <div className="flex items-center text-black cursor-pointer mb-4 font-bold">
@@ -109,6 +111,8 @@ export default function AddProduct() {
           </form>
         </div>
       </div>
+      </div>
+      
     </div>
   );
 }

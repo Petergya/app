@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function FoodInventory() {
   return (
-    <div className="mt-36 px-4 sm:px-6 lg:px-8 bg-white">
-   
+    <div className=" px-4 sm:px-6 lg:px-8 bg-white">
+      <div className="mt-32">
       <div className="text-center">
         <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-bold text-black">
           How does FoodInventoryPro work?
@@ -43,6 +43,9 @@ export default function FoodInventory() {
           />
         </div>
       </div>
+      </div>
+   
+     
     </div>
   );
 }
