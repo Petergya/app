@@ -31,9 +31,17 @@ export default function Navbar() {
         </div>
 
         
-        <button className="hidden md:block px-6 py-2 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
+        {/* <button className="hidden md:block px-6 py-2 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
           Log in
-        </button>
+        </button> */}
+    
+
+<Link href="/signup">
+  <button className="hidden md:block px-6 py-2 bg-[#E82429] text-white text-[16px] font-semibold rounded-full">
+    Log in
+  </button>
+</Link>
+
 
         
         <div className="md:hidden ml-auto">
@@ -64,9 +72,14 @@ export default function Navbar() {
             <Link href="/add-items" className="text-lg hover:text-gray-600">Add Items</Link>
             <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
             <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
+            <Link href="/signup">
             <button className="px-4 py-2 bg-[#E82429] text-white text-[20px] font-semibold rounded-full">
               Log in
             </button>
+            </Link> 
+           
+
+
           </div>
         </div>
       )}
