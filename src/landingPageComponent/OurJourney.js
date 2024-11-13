@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function OurJourney() {
   return (
-    <div className="flex flex-col items-center mt-20">
+    <div className="flex flex-col items-center mt-20 bg-white">
      
 
 <div className="flex flex-col items-center text-center mb-6">

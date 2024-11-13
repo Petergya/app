@@ -10,7 +10,7 @@ export default function OurTeam() {
   ];
 
   return (
-    <div className="px-4 md:px-8 lg:px-16 xl:px-24 py-16">
+    <div className="px-4 md:px-8 lg:px-16 xl:px-24 py-16 bg-white">
   
       <div className="text-center mt-12 md:mt-16">
         <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Our Team</h1>
