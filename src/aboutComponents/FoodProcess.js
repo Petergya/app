@@ -3,7 +3,9 @@ import Image from "next/image";
 
 export default function FoodProcess() {
   return (
-    <div className="mt-28 bg-[#EEEEEE] px-4 sm:px-6 lg:px-8">
+
+    
+ <div className=" bg-[#EEEEEE] px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8 p-6">
         
        
@@ -34,5 +36,7 @@ export default function FoodProcess() {
         </div>
       </div>
     </div>
+    
+   
   );
 }
