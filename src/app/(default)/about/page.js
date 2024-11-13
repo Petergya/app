@@ -15,11 +15,13 @@ import SmartTransaction from "@/aboutComponents/SmartTransaction"
 export default function About() {
 
   return (
-    <>
-      <Abouthero />
+
+    <div className=" bg-white min-h-screen">
+<Abouthero />
       <FoodProcess />
       <Future />
       <SmartTransaction />
-    </>
+    </div>
+  
   );
 }

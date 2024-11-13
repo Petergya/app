@@ -20,7 +20,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-8 mt-32">
+    <div className="flex items-center justify-center  bg-white py-12 px-4 sm:px-6 lg:px-8 mt-32">
       <div className="flex flex-col md:flex-row w-full max-w-4xl p-6 md:space-x-8 space-y-6 md:space-y-0 bg-white shadow-lg rounded-lg">
         
       
