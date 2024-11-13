@@ -23,8 +23,9 @@ export default function Navbar() {
 
         
           <div className="hidden md:flex space-x-10">
-            <Link href="/welcome" className="text-lg hover:text-gray-600">Welcome to</Link>
-            <Link href="addProduct" className="text-lg hover:text-gray-600">Add Items</Link>
+           
+             <Link href="/welcome" className="text-lg hover:text-gray-600">Welcome to</Link>
+            <Link href="/addProduct" className="text-lg hover:text-gray-600">Add Items</Link>
             <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
             <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
           </div>
@@ -66,7 +67,7 @@ export default function Navbar() {
         <div className="md:hidden bg-white shadow-md">
           <div className="flex flex-col items-center space-y-4 py-4">
             <Link href="/welcome" className="text-lg hover:text-gray-600">Welcome to</Link>
-            <Link href="/add-items" className="text-lg hover:text-gray-600">Add Items</Link>
+            <Link href="/addProduct" className="text-lg hover:text-gray-600">Add Items</Link>
             <Link href="/about" className="text-lg hover:text-gray-600">About</Link>
             <Link href="/contact" className="text-lg hover:text-gray-600">Contact</Link>
             <Link href="/signup">

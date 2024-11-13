@@ -58,14 +58,14 @@ export default function AddProduct() {
         </div>
 
         <div className="flex-1 flex flex-col">
-          <h2 className="text-[28px] sm:text-2xl font-semibold mb-6 text-center md:text-left">Upload New Item</h2>
+          <h2 className="text-[28px] sm:text-2xl font-semibold mb-6 text-center md:text-lef text-black">Upload New Item</h2>
           <form className="space-y-4">
             <div>
               <label className="block text-gray-700 text-[14px] mb-1">Name</label>
               <input
                 type="text"
                 placeholder="Golden Morn"
-                className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring focus:ring-blue-300"
+                className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-non"
               />
             </div>
 

@@ -16,7 +16,7 @@ export default function Future() {
         </div>
 
         
-        <div className="w-full md:w-1/2 flex justify-center items-center text-black">
+        <div className="w-full md:w-1/2 flex justify-center items-center ">
           <Image
             src="/images/Rectangle 9 (1).png"
             alt="Food Inventory Illustration"

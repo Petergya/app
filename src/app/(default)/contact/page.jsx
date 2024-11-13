@@ -36,11 +36,11 @@ export default function ContactForm() {
 
       
         <div className="w-full md:w-1/2 bg-white">
-          <h2 className="text-3xl font-bold mb-2 text-center md:text-left">Contact Us</h2>
+          <h2 className="text-3xl font-bold mb-2 text-center md:text-left text-black">Contact Us</h2>
           <p className="text-gray-600 mb-8 text-center md:text-left">Get in touch for inventory management solutions.</p>
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label className="block text-sm font-medium mb-2">Name</label>
+              <label className="block text-sm font-medium mb-2 text-black">Name</label>
               <input
                 type="text"
                 name="name"
@@ -50,7 +50,7 @@ export default function ContactForm() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-2">Email</label>
+              <label className="block text-sm font-medium mb-2 text-black">Email</label>
               <input
                 type="email"
                 name="email"
@@ -60,7 +60,7 @@ export default function ContactForm() {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium mb-2">Message</label>
+              <label className="block text-sm font-medium mb-2 text-black">Message</label>
               <textarea
                 name="message"
                 value={form.message}
