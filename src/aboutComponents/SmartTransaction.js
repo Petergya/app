@@ -4,9 +4,7 @@ export default function SmartTransaction() {
   return (
     <div className="mt-28 bg-[#EEEEEE] px-4 sm:px-6 lg:px-8">
       <div className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0 md:space-x-8 p-6">
-        
-       
-        <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+        <div className="w-full md:w-1/2 flex flex-col items-start text-left">
           <Image
             src="/images/Rectangle 11 (1).png"
             alt="Contact Us Illustration"
@@ -22,13 +20,14 @@ export default function SmartTransaction() {
           </p>
         </div>
 
-        
         <div className="w-full md:w-1/2 space-y-4 mt-12 md:mt-0">
           <h2 className="text-[28px] sm:text-[35px] md:text-[40px] font-bold leading-tight text-black">
             Efficient and Smart Transactions
           </h2>
           <p className="mt-4 sm:mt-6 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed w-full md:w-10/12 text-black">
-            Explore how FoodInventoryPro's technology streamlines data into actionable insights, enhancing efficiency in food inventory management.
+            Explore how FoodInventoryPro's technology streamlines data into
+            actionable insights, enhancing efficiency in food inventory
+            management.
           </p>
         </div>
       </div>
