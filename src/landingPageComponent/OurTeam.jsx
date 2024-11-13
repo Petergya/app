@@ -13,8 +13,8 @@ export default function OurTeam() {
     <div className="px-4 md:px-8 lg:px-16 xl:px-24 py-16 bg-white">
   
       <div className="text-center mt-12 md:mt-16">
-        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">Our Team</h1>
-        <p className="text-lg md:text-xl lg:text-2xl mt-2">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">Our Team</h1>
+        <p className="text-lg md:text-xl lg:text-2xl mt-2 text-black">
           Meet the dedicated individuals behind our innovative food inventory solution
         </p>
       </div>

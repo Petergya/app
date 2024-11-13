@@ -7,8 +7,8 @@ export default function OurJourney() {
      
 
 <div className="flex flex-col items-center text-center mb-6">
-  <h1 className="text-[42px] font-bold">Our Food Journey</h1>
-  <p className="w-[70%] mx-auto text-[24px]">
+  <h1 className="text-[42px] font-bold text-black">Our Food Journey</h1>
+  <p className="w-[70%] mx-auto text-[24px] text-black">
     Founded by a group of food enthusiasts, our company has evolved into a leading provider of innovative
     solutions for managing food inventory effectively.
   </p>
