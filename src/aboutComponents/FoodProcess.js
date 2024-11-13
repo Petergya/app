@@ -19,16 +19,16 @@ export default function FoodProcess() {
 
        
         <div className="w-full md:w-1/2 space-y-4">
-          <h2 className="text-[28px] sm:text-[35px] md:text-[40px] mt-9 font-bold">
+          <h2 className="text-[28px] sm:text-[35px] md:text-[40px] mt-9 font-bold text-black">
             FoodInventoryPro and Data Management
           </h2>
-          <p className="mt-6 text-[16px] sm:text-[18px] md:text-[20px] w-full md:w-10/12 leading-relaxed">
+          <p className="mt-6 text-[16px] sm:text-[18px] md:text-[20px] w-full md:w-10/12 leading-relaxed text-black">
             FoodInventoryPro ensures efficient food storage management. Its
             system is user-friendly, accessible, and reliable for all users.
             It revolutionizes the way food inventory is managed.
           </p>
 
-          <button className="px-10 py-3 sm:px-12 md:px-14 sm:py-3 bg-[#E82429] text-white text-[16px] sm:text-[18px] md:text-[20px] font-semibold rounded-full mt-8 md:mt-12">
+          <button className="px-10 py-3 sm:px-12 md:px-14 sm:py-3 bg-[#E82429] text-white text-[16px] sm:text-[18px] md:text-[20px] font-semibold rounded-full mt-8 md:mt-12 ">
             Start Managing Food
           </button>
         </div>

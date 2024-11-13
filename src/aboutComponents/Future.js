@@ -6,17 +6,17 @@ export default function Future() {
       <div className="flex flex-col md:flex-row items-center md:items-start space-y-6 md:space-y-0 md:space-x-8 p-6">
        
         <div className="w-full md:w-1/2 space-y-4 mt-8 md:mt-12">
-          <h2 className="text-[28px] sm:text-[35px] md:text-[40px] font-bold">
+          <h2 className="text-[28px] sm:text-[35px] md:text-[40px] font-bold text-black">
             Optimize Your Food Inventory Process
           </h2>
-          <p className="mt-4 sm:mt-6 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed w-full md:w-10/12">
+          <p className="mt-4 sm:mt-6 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed w-full md:w-10/12 text-black">
             FoodInventoryPro transforms food inventory processes, providing insights
             for better decision-making and value creation for users.
           </p>
         </div>
 
         
-        <div className="w-full md:w-1/2 flex justify-center items-center">
+        <div className="w-full md:w-1/2 flex justify-center items-center text-black">
           <Image
             src="/images/Rectangle 9 (1).png"
             alt="Food Inventory Illustration"

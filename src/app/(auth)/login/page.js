@@ -23,7 +23,7 @@ export default function Login() {
      
       <div className="md:w-1/2 w-full flex items-center justify-center bg-white p-6">
         <div className="w-full max-w-md">
-          <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center">Log In</h1>
+          <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-black">Log In</h1>
           
           <form className="space-y-4">
             <div>
@@ -33,7 +33,7 @@ export default function Login() {
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="mt-1 w-full px-4 py-2 border rounded-full focus:outline-none focus:border-blue-500"
+                className="mt-1 w-full px-4 py-2 border rounded-full focus:outline-none "
               />
             </div>
 
@@ -44,7 +44,7 @@ export default function Login() {
               <input
                 type="password"
                 placeholder="Enter your password"
-                className="mt-1 w-full px-4 py-2 border rounded-full focus:outline-none focus:border-blue-500"
+                className="mt-1 w-full px-4 py-2 border rounded-full focus:outline-none "
               />
             </div>
 

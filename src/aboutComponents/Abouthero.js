@@ -9,7 +9,7 @@ export default function FoodInventory() {
     <div className="mt-36 px-4 sm:px-6 lg:px-8 bg-white">
    
       <div className="text-center">
-        <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-bold">
+        <h1 className="text-[40px] sm:text-[50px] md:text-[60px] font-bold text-black">
           How does FoodInventoryPro work?
         </h1>
       </div>
@@ -19,15 +19,15 @@ export default function FoodInventory() {
         
        
         <div className="w-full md:w-1/2 space-y-4">
-          <h2 className="text-[30px] sm:text-[35px] md:text-[40px] mt-9 font-bold">
+          <h2 className="text-[30px] sm:text-[35px] md:text-[40px] mt-9 font-bold text-black">
             Essential features for new users
           </h2>
-          <p className="mt-6 w-full md:w-10/12 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed">
+          <p className="mt-6 w-full md:w-10/12 text-[16px] sm:text-[18px] md:text-[20px] leading-relaxed text-black">
             New users can start using FoodInventoryPro without technical knowledge.
             Go to our website, add items to your inventory, and easily manage your
             food storage.
           </p>
-          <p className="mt-8 md:mt-16 text-[20px] sm:text-[25px] md:text-[30px] font-semibold">
+          <p className="mt-8 md:mt-16 text-[20px] sm:text-[25px] md:text-[30px] font-semibold text-black">
             Don’t Forget, Simple is better
           </p>
         </div>
