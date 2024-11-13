@@ -77,7 +77,7 @@ export default function AddProduct() {
                 type="date"
                 value={expiryDate}
                 onChange={handleDateChange}
-                className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring focus:ring-blue-300"
+                className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring focus:ring-black"
               />
             </div>
 
@@ -85,14 +85,14 @@ export default function AddProduct() {
               <label className="block text-gray-700 text-[14px] mb-1">Description</label>
               <textarea
                 placeholder="Description of the item"
-                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring focus:ring-blue-300 h-24"
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring focus:ring-black h-24"
               />
             </div>
 
             <div>
               <label className="block text-gray-700 text-[14px] mb-1">Category</label>
               <select
-                className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring focus:ring-blue-300"
+                className="w-full border border-gray-300 rounded-full px-4 py-2 focus:outline-none focus:ring focus:ring-black"
               >
                 <option value="">Select a category</option>
                 <option value="food">Food</option>

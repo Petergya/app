@@ -4,7 +4,7 @@
 
 import Image from "next/image";
 
-export default function FoodInventory() {
+export default function Abouthero() {
   return (
     <div className=" px-4 sm:px-6 lg:px-8 bg-white">
       
