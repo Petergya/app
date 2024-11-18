@@ -7,13 +7,16 @@
 
 
 import Footer from "@/headerFooter/Footer";
+import Navbar from "@/headerFooter/Navbar";
 import Hero from "@/landingPageComponent/Hero";
 import OurJourney from "@/landingPageComponent/OurJourney";
 import OurTeam from "@/landingPageComponent/OurTeam";
 
+
 export default function Home() {
   return (
-    <div className="">
+    <div className="bg-white">
+      <Navbar />
       <Hero />
       <OurJourney />
       <OurTeam />
