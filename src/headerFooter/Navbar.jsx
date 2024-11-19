@@ -44,7 +44,7 @@ export default function Navbar() {
           React.createElement(
             Link,
             {
-              href: "/welcome",
+              href: "/login",
               className: "text-lg hover:text-gray-600",
               onClick: closeMobileMenu,
             },
@@ -146,7 +146,7 @@ export default function Navbar() {
           React.createElement(
             Link,
             {
-              href: "/welcome",
+              href: "/login",
               className: "text-lg hover:text-gray-600",
               onClick: closeMobileMenu,
             },
