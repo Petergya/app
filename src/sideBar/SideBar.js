@@ -1,9 +1,9 @@
-import { FaBars, FaSearch, FaUserPlus } from "react-icons/fa";
+import { FaBars, FaSearch, FaUserPlus,  FaSignOutAlt } from "react-icons/fa";
 import Link from "next/link";
 
-const Sidebar = () => {
+export default function Sidebar ()  {
   return (
-    <div className="h-screen w-20 bg-gray-100 flex flex-col items-center pt-10 space-y-6">
+    <div className="h-screen w-20 bg-gray-100 flex flex-col -left-8 pt-10 space-y-6">
       
       <Link href="/dashboard">
         <div className="flex  items-center gap-6 group cursor-pointer mt-32">
@@ -29,13 +29,20 @@ const Sidebar = () => {
       </Link>
 
     
+      
       <Link href="/logout">
-        <div className="flex flex-col group cursor-pointer">
-          <p className="text-xs font-bold text-black mt-1">Logout</p>
-        </div>
-      </Link>
+         <div className="flex items-center gap-6 group cursor-pointer mt-auto mr-6 pb-10">
+           <FaSignOutAlt className="text-black text-xl" />
+           <p className="text-sm font-bold text-black group-hover:text-indigo-600">Logout</p>
+         </div>
+       </Link>
     </div>
   );
 };
 
-export default Sidebar;
+
+
+
+
+
+
