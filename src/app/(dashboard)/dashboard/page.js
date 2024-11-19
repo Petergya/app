@@ -19,7 +19,7 @@ export default function Dashboard() {
 
   return (
     <div className="flex min-h-screen bg-white mx-auto w-full">
-      {/* Sidebar */}
+      
       <aside
         className={`fixed lg:hidden top-0 left-0 h-full bg-gray-200 p-6 pt-8 w-52 transform transition-transform duration-300 ease-in-out ${
           isSidebarOpen ? "translate-x-0" : "-translate-x-full"
@@ -33,13 +33,13 @@ export default function Dashboard() {
         </div>
 
         <nav className="flex flex-col gap-6 mt-5">
-          <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
+          <a href="/dashboard" className="flex items-center hover:text-gray-600 text-black font-bold">
             <IoMenuOutline className="mr-3 text-3xl font-bold" /> Dashboard
           </a>
-          <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
+          <a href="/users" className="flex items-center hover:text-gray-600 text-black font-bold">
             <FaSearchPlus className="mr-3 text-xl" /> View Users
           </a>
-          <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
+          <a href="/addUsers" className="flex items-center hover:text-gray-600 text-black font-bold">
             <TiPlus className="mr-3 text-2xl" /> Add User
           </a>
           <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
@@ -48,9 +48,9 @@ export default function Dashboard() {
         </nav>
       </aside>
 
-      {/* Main Content */}
+     
       <main className="flex-1 p-6 lg:p-10 mx-auto w-full">
-        {/* Mobile Sidebar Toggle */}
+       
         <div className="flex items-center justify-between lg:hidden mb-4">
           <button onClick={toggleSidebar} className="text-2xl text-gray-600">
             <IoMenuOutline />
@@ -58,7 +58,7 @@ export default function Dashboard() {
         </div>
         <h1 className="text-2xl font-bold mb-8">Dashboard</h1>
 
-        {/* Grid Cards */}
+       
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
             "Total Users",

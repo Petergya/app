@@ -17,7 +17,7 @@ export default function UserManagement() {
     { id: 2, name: 'Adeyemi Timilehin David', email: 'Adeyemitimilehin@gmail.com' },
     { id: 3, name: 'Adeyemi Timilehin David', email: 'Adeyemitimilehin@gmail.com' },
     { id: 4, name: 'Adeyemi Timilehin David', email: 'Adeyemitimilehin@gmail.com' },
-    { id: 5, name: 'Adeyemi Timilehin David', email: 'Adeyemitimilehin@gmail.com' },
+   
   ];
 
   const [users, setUsers] = useState(initialUsers);
@@ -58,13 +58,13 @@ export default function UserManagement() {
         </div>
 
         <nav className="flex flex-col gap-6 mt-5">
-          <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
+          <a href="/dashboard" className="flex items-center hover:text-gray-600 text-black font-bold">
             <IoMenuOutline className="mr-3 text-3xl font-bold" /> Dashboard
           </a>
-          <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
+          <a href="/users" className="flex items-center hover:text-gray-600 text-black font-bold">
             <FaSearchPlus className="mr-3 text-xl" /> View Users
           </a>
-          <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
+          <a href="addUsers" className="flex items-center hover:text-gray-600 text-black font-bold">
             <TiPlus className="mr-3 text-2xl" /> Add User
           </a>
           <a href="#" className="flex items-center hover:text-gray-600 text-black font-bold">
